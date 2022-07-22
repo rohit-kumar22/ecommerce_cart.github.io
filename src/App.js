@@ -10,9 +10,6 @@ function App() {
       console.log("Item is already present");
     } else {
       cart.push(item);
-      const totalItems = cart.length;
-
-      console.log(cart);
       console.log(`${item} added successfully`);
       console.log(`Total items in cart: ${cart}`);
     }
@@ -39,7 +36,7 @@ function App() {
       <div>
         <h1>Our Products</h1>
       </div>
-      {data.data.map((item) => (
+      {data.data.map((item, id) => (
         <div>
           <p className="category">&emsp;{item.name}</p>
           <div className="grid-container">
