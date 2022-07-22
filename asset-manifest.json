@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rohit-kumar22/ecommerce_cart.github.io.git/static/css/main.e9af3bf9.css",
+    "main.js": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/main.ae620c67.js",
+    "static/js/787.ee6b801e.chunk.js": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/787.ee6b801e.chunk.js",
+    "index.html": "/rohit-kumar22/ecommerce_cart.github.io.git/index.html",
+    "main.e9af3bf9.css.map": "/rohit-kumar22/ecommerce_cart.github.io.git/static/css/main.e9af3bf9.css.map",
+    "main.ae620c67.js.map": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/main.ae620c67.js.map",
+    "787.ee6b801e.chunk.js.map": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/787.ee6b801e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9af3bf9.css",
+    "static/js/main.ae620c67.js"
+  ]
+}
