@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rohit-kumar22/ecommerce_cart.github.io.git/static/css/main.2f04db7d.css",
-    "main.js": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/main.83284c08.js",
-    "static/js/787.ee6b801e.chunk.js": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/787.ee6b801e.chunk.js",
-    "index.html": "/rohit-kumar22/ecommerce_cart.github.io.git/index.html",
-    "main.2f04db7d.css.map": "/rohit-kumar22/ecommerce_cart.github.io.git/static/css/main.2f04db7d.css.map",
-    "main.83284c08.js.map": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/main.83284c08.js.map",
-    "787.ee6b801e.chunk.js.map": "/rohit-kumar22/ecommerce_cart.github.io.git/static/js/787.ee6b801e.chunk.js.map"
+    "main.css": "/ecommerce_cart.github.io/static/css/main.2f04db7d.css",
+    "main.js": "/ecommerce_cart.github.io/static/js/main.79e7615d.js",
+    "static/js/787.ee6b801e.chunk.js": "/ecommerce_cart.github.io/static/js/787.ee6b801e.chunk.js",
+    "index.html": "/ecommerce_cart.github.io/index.html",
+    "main.2f04db7d.css.map": "/ecommerce_cart.github.io/static/css/main.2f04db7d.css.map",
+    "main.79e7615d.js.map": "/ecommerce_cart.github.io/static/js/main.79e7615d.js.map",
+    "787.ee6b801e.chunk.js.map": "/ecommerce_cart.github.io/static/js/787.ee6b801e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f04db7d.css",
-    "static/js/main.83284c08.js"
+    "static/js/main.79e7615d.js"
   ]
 }
