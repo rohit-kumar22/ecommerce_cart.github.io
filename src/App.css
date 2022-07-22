@@ -1,6 +1,6 @@
 .container{
   padding: 0px !important;
-  margin: 0px !important;
+  margin-top: 0px !important;
   height: 100vh;
 }
 
@@ -12,17 +12,29 @@
   margin-top: 0 !important;
 }
 
-.product-bar{
-  border: 1px solid black;
- 
-  margin-bottom: 20px;
-  margin-left: 10px;
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  margin-top: 20px;
   
-  width: 200px;
 }
 
-p, button, h1, h2{
-  margin-left: 5px;
+.grid-items{
+  height:250px;
+  background-color: rgb(183, 74, 74);
+  margin-right: 100px;
+  padding-bottom: 80px;
+  margin-bottom: 15px;
+}
+
+button, h1, h2{
+  margin-left: 50px;
+}
+
+p{
+  margin-left: 50px;
+  font-size: 1.5rem;
 }
 
 .button1, .button2{
@@ -31,5 +43,16 @@ font-size: 1rem;
 margin-bottom: 4px;
 background-color: skyblue;
 color: black;
+}
+
+.button1{
+  margin: 100px 0 5px 50px;
+}
+
+.category{
+  background-color: orangered;
+  font-size: 2rem;
+  margin:0;
+  color: white;
 }
 

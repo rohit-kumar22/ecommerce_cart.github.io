@@ -13,8 +13,8 @@ function App() {
       const totalItems = cart.length;
 
       console.log(cart);
-      console.log("item added successfully");
-      console.log(`Total items in cart ${totalItems}`);
+      console.log(`${item} added successfully`);
+      console.log(`Total items in cart: ${cart}`);
     }
   }
 
@@ -24,10 +24,10 @@ function App() {
     if (found !== -1) {
       cart.splice(found, 1);
       const totalItems = cart.length;
-      console.log("item removed successfully");
-      console.log(`Total items in cart ${totalItems}`);
+      console.log(`${item} removed successfully`);
+      console.log(`Total items in cart ${cart}`);
     } else {
-      console.log("Item is not present in the cart");
+      console.log(`${item} is not present in the cart`);
     }
   }
 
@@ -39,32 +39,34 @@ function App() {
       <div>
         <h1>Our Products</h1>
       </div>
-      {data.data.map((item, index) => (
-        <div className="product-bar">
-          <p style={{ border: "1px solid black" }}>{item.name}</p>
-          {item.productList.map((product) => (
-            <div style={{ paddingTop: "20px" }}>
-              <p>{product.name}</p>
-              <p>{product.price}</p>
-              <button
-                type="addToCart"
-                value="Add To Cart"
-                id="true"
-                className="button1"
-                onClick={() => add(`${product.name}`)}>
-                Add to the Cart
-              </button>
-              <button
-                type="removeFromCart"
-                value="Remove From Cart"
-                id="true"
-                className="button2"
-                onClick={() => remove(`${product.name}`)}>
-                Remove From Cart
-              </button>
-            </div>
-          ))}
-          <div></div>
+      {data.data.map((item) => (
+        <div>
+          <p className="category">&emsp;{item.name}</p>
+          <div className="grid-container">
+            {item.productList.map((product) => (
+              <div className="grid-items">
+                <p>{`Name: ${product.name}`}</p>
+                <p>{`Price: ${product.price}`}</p>
+                <button
+                  type="addToCart"
+                  value="Add To Cart"
+                  id="true"
+                  className="button1"
+                  onClick={() => add(`${product.name}`)}>
+                  Add to the Cart
+                </button>
+                <br></br>
+                <button
+                  type="removeFromCart"
+                  value="Remove From Cart"
+                  id="true"
+                  className="button2"
+                  onClick={() => remove(`${product.name}`)}>
+                  Remove From Cart
+                </button>
+              </div>
+            ))}
+          </div>
         </div>
       ))}
     </div>

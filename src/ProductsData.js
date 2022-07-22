@@ -27,12 +27,6 @@ export const data = {
 
           price: 199,
         },
-
-        {
-          name: "Nail polish",
-
-          price: 150,
-        },
       ],
     },
 
