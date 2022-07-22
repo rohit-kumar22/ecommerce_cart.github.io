@@ -31,7 +31,10 @@ function App() {
   return (
     <div className="container">
       <div className="nav">
-        <h2>Parakh</h2>
+        <span
+          style={{ fontSize: "2rem", marginLeft: "3rem", fontWeight: "500" }}>
+          Parakh
+        </span>
       </div>
       <div>
         <h1>Our Products</h1>
